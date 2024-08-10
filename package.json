@@ -1,0 +1,10 @@
+{
+  "name": "my-monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.7.0",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
+}

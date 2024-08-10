@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "composite": true,
+    "allowJs": true,
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
+    "outDir": "node_modules/.cache/ts/out",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+  },
+  "include": [
+    "./*.js",
+    "./*.ts"
+  ],
+  "files": [],
+  "references": [
+    {
+      "path": "packages/is-even/tsconfig.json",
+    },
+    {
+      "path": "packages/utils/tsconfig.json",
+    },
+    {
+      "path": "playground/tsconfig.json",
+    },
+  ],
+}

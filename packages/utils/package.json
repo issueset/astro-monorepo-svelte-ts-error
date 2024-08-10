@@ -1,0 +1,28 @@
+{
+  "name": "@my-monorepo/utils",
+  "type": "module",
+  "version": "1.0.1",
+  "private": true,
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./is-even": "./src/is-even.ts"
+  },
+  "dependencies": {
+    "@my-monorepo/is-even": "workspace:*"
+  },
+  "peerDependencies": {
+    "svelte": ">= 3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "svelte": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "svelte": "^4.2.18",
+    "typescript": "^5.5.4"
+  }
+}
